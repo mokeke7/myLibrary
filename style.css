@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("pexels-cottonbro-6853307.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header */
+#bookIcon {
+    float: left;
+    margin: 20px;
+    width: 40px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding: 30px 0 15px 30px;
+}
+
+#container {
+    height: 600px;
+}
+
+/* Input area and button general*/
+#menu {
+    margin: 0 0 20px 30px;
+    width: 180px;
+}
+
+#menu:focus {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(130, 211, 207);
+}
+
+.btn:hover {
+    background-color: rgb(81, 141, 138);
+}
+
+#inputs {
+    display: flexbox;
+    margin-left: -550px;
+    width: 300px;
+    height: 500px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.1));
+
+    padding: 30px 0 0 0;
+    float: left;
+    transition-duration: 500ms;
+}
+
+#inputs.active {
+    margin-left: 0;
+    padding-left: 50px;
+    transition-duration: 500ms;
+}
+
+.input {
+    border: none;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0 0 0 15px;
+    font-family: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+    background-color:  rgba(255, 255, 203, 0.8);
+    font-family: inherit;
+}
+
+#add {
+    margin: 30px 0 0 190px;
+    width: 70px;
+}
+
+#close {
+    margin-left: 250px;
+}
+
+/* Card */
+.card {
+    border-radius: 8px;
+    text-align: center;
+    height: 210px;
+    width: 20%;
+    margin: 30px 0 0 40px;
+    display: inline-block;
+    background-color: rgb(162, 212, 243);
+    opacity: 0.9;
+    transition-duration: 500ms;
+}
+
+.isRead {
+    background-color: rgb(81, 148, 126);
+    color: white;
+    transition-duration: 500ms;
+
+}
+
+.read:hover {
+    background-color: rgb(150, 173, 172);
+}
+
+#read {
+    margin: 30px 0 0 0;
+}
+
+#cross {
+    width: 15px;
+    margin: 10px 0 0 73%;
+}
+
+/* Depends on the menu is open or not*/
+.activeCard {
+    margin-left: 400px;
+}
+
+/* Footer */
+footer {
+    float: right;
+    margin: 0 15px 15px 0;
+}
+
+
+
+
+
+

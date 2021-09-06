@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <img id="bookIcon" src="image-removebg-preview.png" alt="" >
+        <h1>My library</h1>
+        <button id="menu" class="btn">Add a book</button>
+
+    </header>
+    <div id="container">
+        <div id="inputs">
+            <img src="582631-200.png" alt="" id="close" width="20px">
+            <p>Title</p>
+            <input class="input" id="title" type="text" autocomplete="off" required>
+            <p>Author</p>
+            <input class="input" id="author" type="text" autocomplete="off" required>
+            <p>No. of pages</p>
+            <input id="pages" class="input" type="number" required><br>
+            <input type="checkbox" id="read" name="read">
+            <label for="read">Read</label><br>
+            <button id="add" class="btn">Add</button>
+        </div>
+        <div id="cards"></div>
+
+    </div>
+    <footer>
+        Photo by <a href="https://www.pexels.com/@cottonbro?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">cottonbro</a>from Pexels
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
